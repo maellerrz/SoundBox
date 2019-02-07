@@ -1,0 +1,81 @@
+body{
+    background-image: url("WALL-E-wall-e-34551214-1920-1080.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.keys {
+  display: flex;
+  width: 35%;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.key {
+  border: .3rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 23%;
+  text-align: center;
+  color: white;
+  background-image: url('metal.jpg');
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 0 .5rem black;
+  margin: 5px 0px;
+}
+.enter{
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background-color: #EF3A3A;
+    width: 60%;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #3DF8FF;
+  box-shadow: 0 0 1rem #D3FDFF;
+}
+
+kbd {
+  display: block;
+  font-size: 2.1rem;
+}
+
+.sound {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #00F0FC;
+}
+
+input{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 30%;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: #0ED8EE;
+}
